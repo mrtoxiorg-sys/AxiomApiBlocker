@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "axiomapiblocker",
+  "version": "${version}",
+  "name": "AxiomApiBlocker",
+  "description": "Blocks Axiom API access for testing how Axiom behaves when its API is unavailable.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.axiomapiblocker.AxiomApiBlockerClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "axiomapiblocker.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

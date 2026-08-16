@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "dev.axiomapiblocker.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AuthorizationMixin",
+    "LocalizationLoaderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
