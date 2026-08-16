@@ -2,7 +2,7 @@
 
 Fabric client-side mod that blocks Axiom's access to its API (`axiom.moulberry.com`) to test how Axiom behaves when its API is unavailable.
 
-Minecraft: **1.21.11** (Fabric). The mod is client-side only.
+btw, the mod lets you use axiom without limitations on any server where you have OP rights, without a commercial license and restrictions.
 
 ## What it does
 
