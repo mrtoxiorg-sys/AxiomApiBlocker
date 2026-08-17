@@ -4,3 +4,6 @@ libs/
 run/
 .idea/
 *.iml
+mod/
+decompiled/
+fernflower/

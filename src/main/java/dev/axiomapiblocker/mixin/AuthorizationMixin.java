@@ -1,6 +1,5 @@
 package dev.axiomapiblocker.mixin;
 
-import com.moulberry.axiom.utils.Authorization;
 import dev.axiomapiblocker.ChatLogger;
 import java.io.IOException;
 import java.net.URL;
@@ -9,7 +8,7 @@ import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Redirect;
 
-@Mixin(Authorization.class)
+@Mixin(targets = {"com.moulberry.axiom.utils.Authorization", "com.moulberry.axi\u03BFm.utils.Authorization"})
 public class AuthorizationMixin {
     private static final String AXIOM_API_HOST = "axiom.moulberry.com";
 
