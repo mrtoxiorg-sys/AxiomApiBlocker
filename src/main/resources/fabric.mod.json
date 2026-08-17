@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "axiomapiblocker",
   "version": "${version}",
-  "name": "AxiomApiBlocker",
-  "description": "Blocks Axiom API access for testing how Axiom behaves when its API is unavailable.",
+  "name": "AxiomWhitelistBypass",
+  "description": "Blocks Axiom API access and bypasses Axiom's license/whitelist checks for testing.",
   "environment": "client",
   "entrypoints": {
     "client": [

@@ -1,4 +1,4 @@
-# AxiomApiBlocker
+# AxiomWhitelistBypass
 
 Fabric client-side mod that blocks Axiom's access to its API (`axiom.moulberry.com`) and demonstrates that the license/whitelist enforcement in Axiom (v5.4.2, MC 1.21.11) can be bypassed on any server where you have OP rights, without a commercial license and restrictions.
 
